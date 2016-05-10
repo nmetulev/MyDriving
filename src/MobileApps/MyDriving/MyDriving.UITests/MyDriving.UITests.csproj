@@ -79,14 +79,16 @@
     <Compile Include="Pages\TripSummaryPage.cs" />
     <Compile Include="Pages\FacebookLoginPage.cs" />
     <Compile Include="Pages\PastTripDetailPage.cs" />
+    <Compile Include="Tests\SimpleTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <Folder Include="Pages\" />
-    <Folder Include="Helpers\" />
-    <Folder Include="Tests\" />
+    <ProjectReference Include="..\MyDriving.Android\MyDriving.Android.csproj">
+      <Project>{b09661c2-82a6-4d16-b4fd-7b23d0ffe1fe}</Project>
+      <Name>MyDriving.Android</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

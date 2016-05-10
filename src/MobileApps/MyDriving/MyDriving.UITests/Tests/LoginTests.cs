@@ -23,20 +23,6 @@ namespace MyDriving.UITests
             new CurrentTripPage()
                 .AssertOnPage();
         }
-
-        /*[Test]
-        public void LoginWithFacebookTest()
-        {
-            ClearKeychain();
-
-            new LoginPage()
-                .LoginWithFacebook();
-
-            new FacebookLoginPage()
-                .Login();
-
-            new CurrentTripPage()
-                .AssertOnPage();
-		}*/
+        
 	}
 }
