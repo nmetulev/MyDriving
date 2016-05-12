@@ -44,6 +44,7 @@
             Canvas.ZIndex="0"
             LandmarksVisible="True"
             IsRightTapEnabled="true"
+            MapServiceToken="FySvlXjivCDPa2T4FHQB~R9u7hEyUOYk8mGfNOn599g~AiWs3OvU5Iumz9ytkmcb_lD_ZcHTZR2mNXMqWq74Nra7mEano0SbVuTWHTIxqXDU"
            />
             <Rectangle HorizontalAlignment="Stretch" Height="90" VerticalAlignment="Bottom" Fill="{StaticResource MapFillColor}" Opacity="0.4"  />
             <Button x:Name="StartRecordBtn"  Width="50" Height="50"  HorizontalAlignment="Center" VerticalAlignment="Bottom"  Canvas.ZIndex="4" Margin="0,16">
