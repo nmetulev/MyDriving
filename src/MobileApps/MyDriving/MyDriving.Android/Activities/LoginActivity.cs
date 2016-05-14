@@ -52,10 +52,10 @@ namespace MyDriving.Droid.Activities
                 Finish();
             };
 
-            #if XTC || DEBUG
-            #else
-            FindViewById<Button>(Resource.Id.button_skip).Visibility = ViewStates.Gone;
-            #endif
+            //#if XTC || DEBUG
+            //#else
+            //FindViewById<Button>(Resource.Id.button_skip).Visibility = ViewStates.Gone;
+            //#endif
             var typeface = Typeface.CreateFromAsset(Assets, "fonts/Corbert-Regular.otf");
             FindViewById<TextView>(Resource.Id.text_app_name).Typeface = typeface;
         }

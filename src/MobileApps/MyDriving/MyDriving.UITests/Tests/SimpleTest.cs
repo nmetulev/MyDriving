@@ -19,6 +19,7 @@ namespace MyDriving.UITests.Tests
         {
             app = ConfigureApp.Android.ApkFile("../../MyDriving.Android/bin/Release/com.microsoft.mydriving-Signed").StartApp();
         }
+               
         
     }
 }
